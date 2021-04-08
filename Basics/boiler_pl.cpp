@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
 
-	retrun 0;
+	return 0;
 }
