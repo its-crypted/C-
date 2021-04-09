@@ -1,9 +1,10 @@
-#include <iostream> //this is a preprocesso directive
+#include <iostream>
+#include "Burrito.h"
 
-using namespace std;	//std - standard library.
+using namespace std;
 
-int main()//A function below this. int is function type. main is func name
+int main()
 {
-	cout << "Hello, World!" <<endl;	//These are statements & made to terminate by ;
-	return 0; //main ran fine.	
+	Burrito bo;
+	return 0;
 }
