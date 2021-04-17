@@ -4,8 +4,11 @@
 class Mother
 {
 	public:
-		Mother();
-		void sayName();
+		int publicv;
+	protected:
+		int protectedv;	
+	private:
+		int privatev;
 };
 
 #endif

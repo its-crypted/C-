@@ -4,6 +4,8 @@
 
 using namespace std;
 
-Daughter::Daughter() 
+void Daughter::doSomething() 
 {
+	publicv = 1;
+	protectedv = 2;
 }
