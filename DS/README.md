@@ -27,3 +27,21 @@ again:
 - How much time does this algorithm need to finish?
 - How much space does this algo need for computation?
 
+# Big-O Notation
+Big-O Notation gives a upper bound of the complexity in the worst case, helping
+to quantify performace as the input size becomes arbitrarily large.
+
+n - The size of the input Complexities ordered in from smallest to largest
+
+**Constant Time**: O(1)
+**Logarithmic Time**: O(log(n))
+**Linear Time**: O(n)
+**Linearthmic Time**: O(nlog(n))
+**Quadratic Time**: O(n^2)
+**Cubic Time**: O(n^3)
+**Exponential Time**: O(b^n), b > 1
+**Factorial Time**: O(n!)
+
+## Big-O Properties
+O(n + c) = O(n)
+O(cn) = O(n)
